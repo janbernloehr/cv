@@ -20,259 +20,114 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Dr. Jan Bernlöhr",
+  initials: "JB",
+  location: "Kornwestheim, Deutschland",
+  locationLink: "https://www.google.com/maps/place/Kornwestheim",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Senior Expert Machine Learning Perception for ADAS",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "TBD",
+  avatarUrl: "https://avatars.githubusercontent.com/u/1050099?s=400&u=ed3d13a9b1106ef32769f90de44ec5ab9f8212d4&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "jan.bernloehr@de.bosch.com",
+    tel: "+491622925931",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/janbernloehr",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/jan-bernl%C3%B6hr-14b3a025/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/janm_net",
+      //   icon: XIcon,
+      // },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      school: "PhD in Mathematics, University of Zurich",
+      degree: "Thesis: New features of the Birkhoff map for the dNLS equation, Supervisor: Prof. Kappeler",
+      start: "2012",
+      end: "2016",
+    },
+    {
+      school: "Diploma in Mathematics, University of Stuttgart",
+      degree: "Thesis: Spectral triangles of Zakharov-Shabat operators in weighted Sobolev spaces; with distinction",
       start: "2007",
-      end: "2010",
+      end: "2012",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+      company: "Bosch, L4",
+      link: "https://www.bosch.com/stories/topics/automated-driving/",
+      badges: [],
+      title: "Technology Lead Video Perception",
+      logo: NSNLogo,
       start: "2021",
       end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      description: "* `*` Transformed the stack from single-camera networks to spatio-temporal multi-view networks \n * `*` Close collaboration with CR (AIM 301 aka Temporal-Multi-View and AID 400 aka Deep-Fusion) \n * `*` Successful customer demos of urban hands-free driving using solely cameras (vision only) \n * `*` Build-up of the multi-modal sequential MSL dataset \n * `*` End-to-end data loop with < 24h cycle time from event in car to new network in car \n * `*` Training optimization for A100 yielding 7-figure savings YoY \n * `*` Strong use of auto-labeling (vision foundation models + post processing)",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Bosch & Daimler collaboration project Athena",
+      link: "https://www.businessinsider.de/gruenderszene/allgemein/daimler-bosch-roboter-taxis/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      title: "Deep Learning Engineer -> Product Owner",
       logo: NSNLogo,
-      start: "2010",
+      start: "2018",
+      end: "2021",
+      description: "* `*` Deep Learning based camera perception for automated driving \n * `*` Multi Task CNNs (Semantic Segmentation, 3d Object Detection, Object Tracking, ...) \n * `*` Co-Creator xflow: reusable training modules to facilitate collaboration in large teams (> 50 devs) \n * `*` Continuous & reproducible trainings (16x V100; weekly sync with Microsoft's AzureML Team) \n * `*` Real-time optimization & deployment on embedded platforms (QNX, CUDA,  NVIDIA Xavier & Orin)",
+    },
+    {
+      company: "Bosch, DACore",
+      link: "https://www.bosch-mobility.com/de/mobility-themen/sicherheit-fuer-alle-verkehrsteilnehmer/fahrerassistenzsysteme-fuer-pkw/",
+      badges: [],
+      title: "Developer → Product Owner",
+      logo: NSNLogo,
+      start: "2016",
+      end: "2017",
+      description: "* `*` Team-lead Behavioral Planning @ DACore (SOPs: VW Golf 8, JLR Defender)\n * `*` Software architect for scalable Planner Level 1-3 \n * `*` Rollout of Continuous Build & Continuous Testing in Open and Closed Loop Simulation",
+    },
+    {
+      company: "Institute of Mathematics, University of Zurich",
+      link: "https://www.math.uzh.ch/home",
+      badges: [],
+      title: "Scholar of the Zurich Graduate School of Mathematics -> Research Assistant",
+      logo: NSNLogo,
+      start: "2012",
+      end: "2016",
+      description: "* `*` Research on nonlinear partial differential equations - see [publications](https://janbernloehr.de/academia/publications) \n * `*` Invited talks in Nantes, Luminy, Rome, St. Petersburg, Ascona",
+    },
+    {
+      company: "Microsoft, Munich / Redmond",
+      link: "https://www.math.uzh.ch/home",
+      badges: ["Hybrid"],
+      title: "Microsoft Expert Student Partner, Microsoft Certified Professional",
+      logo: NSNLogo,
+      start: "2007",
       end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      description: "* `*` Organization of Talks and Workshops at German Universities on Azure and .NET \n * `*` Invited Speaker at TechEd 2009 Berlin on Azure Web Services \n * `*` Active contributions to .net, Visual Studio, and Windows Presentation Foundation",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Torch",
+    "Tensorflow",
+    "Computer Vision",
+    "Transformer",
+    "Python",
+    "Azure",
+    "Embedded",
+    "CUDA",
+    "C++",
   ],
   projects: [
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
   ],
 } as const;

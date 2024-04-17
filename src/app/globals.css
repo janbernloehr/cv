@@ -78,3 +78,11 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+@media print {
+  .badge {
+    background-color: #007bff !important; /* Blue background */
+    color: white !important; /* White text */
+    border: 1px solid #007bff !important; /* Blue border */
+  }
+}

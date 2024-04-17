@@ -94,7 +94,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "2016",
       end: "2017",
-      description: "* `*` Team-lead Behavioral Planning @ DACore (SOPs: VW Golf 8, JLR Defender)\n * `*` Software architect for scalable Planner Level 1-3 \n * `*` Rollout of Continuous Build & Continuous Testing in Open and Closed Loop Simulation",
+      description: "* `*` Team-lead Motion Planning @ DACore (SOPs: VW Golf 8, JLR Defender)\n * `*` Software architect for scalable ADAS functions Level 1-3 \n * `*` Rollout of Continuous Build & Continuous Testing in Open and Closed Loop Simulation",
     },
     {
       company: "Institute of Mathematics, University of Zurich",

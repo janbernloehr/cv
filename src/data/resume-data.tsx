@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/1050099?s=400&u=ed3d13a9b1106ef32769f90de44ec5ab9f8212d4&v=4",
   personalWebsiteUrl: "https://janbernloehr.de",
   contact: {
-    email: "jan.bernloehr@de.bosch.com",
+    email: "jan@bernloehrs.de",
     tel: "+491622925931",
     social: [
       {
